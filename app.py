@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 # Replace 'YOUR_OPENAI_API_KEY' with your actual OpenAI API key
 client = OpenAI(
-    api_key="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",
+    api_key="xxxx",
 )
 
 messages = [ {"role": "system", "content":
