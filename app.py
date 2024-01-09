@@ -3,7 +3,7 @@ from openai import OpenAI
 import os
 
 
-path = os.getcWd() + "/instructions/"
+path = os.getcwd() + "/instructions/"
 
 app = Flask(__name__)
 
