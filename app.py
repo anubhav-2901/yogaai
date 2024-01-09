@@ -3,13 +3,13 @@ from openai import OpenAI
 import os
 
 
-path = "/Users/anubhav/Documents/UTokyo/Doctors/Multimedia Interface/yogapy/instructions/"
+path = os.getcWd() + "/instructions/"
 
 app = Flask(__name__)
 
 # Replace 'YOUR_OPENAI_API_KEY' with your actual OpenAI API key
 client = OpenAI(
-    api_key="xxxx",
+    api_key="YOUR_OPENAI_API_KEY",
 )
 
 messages = [ {"role": "system", "content":
